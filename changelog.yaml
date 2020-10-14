@@ -14,8 +14,8 @@
 
 #      jiraIssueNumber: <Internal Jira issue number>
 
-- version: "NEXT"
-  date: TBD
+- version: "test"
+  date: test
   
 - version: "0.5.1"
   date: 2020-10-05
