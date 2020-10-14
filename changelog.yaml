@@ -14,7 +14,7 @@
 
 #      jiraIssueNumber: <Internal Jira issue number>
 
-- version: "test"
+- version: "NEXT"
   date: test
   
 - version: "0.5.1"
