@@ -18,6 +18,20 @@
 
 # Do not modify the "NEXT" version block.
 # Do not change the order ("NEXT" needs to be on top).
+- version: "NEXT"
+  date: TBD
+  changes:
+
+    - type: hotfix
+      impact: patch
+      title: TEST hotfix
+      description: This change tests the hotfix process
+      warning:
+      upgradeNotes:
+      deprecations:
+      pullRequestNumber:
+      jiraIssueNumber:
+
 - version: "0.5.2"
   date: 2020-10-28
   changes:
