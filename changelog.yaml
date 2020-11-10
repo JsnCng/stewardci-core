@@ -1,7 +1,7 @@
-## -----------------------------------------
-## Copy this template for new change entries
-## -----------------------------------------
-#    - type: [bug, enhancement, internal]
+## -------------------------------------------------------------------------------
+## For new change entries copy the template below to 'changes:' in version "NEXT".
+## -------------------------------------------------------------------------------
+#    - type: [bug, enhancement, internal, hotfix]
 #      impact: [incompatible, minor, patch]
 #      title: <title>
 #      description: |-
@@ -13,7 +13,9 @@
 #      deprecations: |-
 #        <optional deprecation notes (markdown syntax)>
 #      pullRequestNumber: <pull request number>
+#        # in case of multiple numbers use a list e.g. [123, 456]
 #      jiraIssueNumber: <Jira issue number>
+#        # in case of multiple numbers use a list e.g. [123, 456]
 
 
 # Do not modify the "NEXT" version block.
@@ -21,6 +23,16 @@
 - version: "NEXT"
   date: TBD
   changes:
+
+    - type: internal
+      impact: patch
+      title: TEST
+      description: TEST
+      warning: 
+      upgradeNotes: 
+      deprecations: 
+      pullRequestNumber: [1, 2, 3]
+      jiraIssueNumber: [1, 2, 3]
 
 - version: "0.6.0"
   date: 2020-11-09
